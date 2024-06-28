@@ -1,0 +1,24 @@
+/* Start Globale Css */
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 90%;
+}
+.active{
+  font-weight: 600;
+  color: black !important;
+}
+.activeBtn{
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+/* End Globale Css */
+
+/* Start App Css*/
+.App{
+  width: 100%;
+  background-color: white;
+}
+/* End App Css*/

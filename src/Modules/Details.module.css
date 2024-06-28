@@ -1,0 +1,58 @@
+.loading{
+    width: 100%;
+    margin: 100px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.image{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+}
+.image img{
+    width: 275px;
+    height: 275px;
+}
+.detailsInfo{
+    margin-top: 100px;
+}
+.detailsInfo h2{
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #777777c9;
+}
+.title{
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.rating{
+    display: flex;
+    gap: 6px;
+}
+.rate,
+.price{
+    font-weight: 600;
+}
+.price{
+    font-size: 22px;
+}
+
+.description{
+
+}
+.infoBtns{
+    display: flex;
+    gap: 12px;
+}
+
+
+

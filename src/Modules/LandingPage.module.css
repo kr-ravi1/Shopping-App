@@ -1,0 +1,35 @@
+.landing{
+    position: relative;
+    max-height: calc(100vh - 10vh);
+    overflow: hidden;
+}
+.landing img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.title{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 0.1;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 30px;
+}
+@media (max-width:750px) {
+    .title {
+            font-size: 25px;
+        }
+    .paragraph {
+            font-size: 18px;
+        }
+}

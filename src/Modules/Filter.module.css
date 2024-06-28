@@ -1,0 +1,22 @@
+#Filters{
+    margin-top: 50px;
+}
+.filtersBtns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.active{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+.isNotActive{
+    color: #333;
+    transition: 0.3s;
+    border-color :black;
+    padding: 4px 6px;
+    font-size: 12px;
+}
